@@ -1,0 +1,61 @@
+.header-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 45px 15px;
+
+  color: $color-light;
+
+  &__image {
+    @include max-sm {
+      max-width: 400px;
+    }
+    @include sm-xx {
+      max-width: 300px;
+    }
+    @include xx-min {
+      max-width: 80%;
+    }
+  }
+  &__title {
+    display: block;
+
+    margin-bottom: 15px;
+
+    letter-spacing: 5px;
+
+    font-family: $font-header;
+    font-weight: 300;
+
+    @include max-sm {
+      font-size: 3rem;
+      line-height: 3.5rem;
+    }
+    @include sm-xx {
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+    @include xx-min {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+  }
+  &__description {
+    display: block;
+
+    margin: 0;
+
+    letter-spacing: 2px;
+
+    font-family: $font-main;
+    font-weight: 700;
+
+    @include max-sm {
+      font-size: 1rem;
+    }
+    @include sm-min {
+      font-size: 0.875rem;
+    }
+  }
+}

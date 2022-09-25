@@ -1,0 +1,15 @@
+.header {
+  max-width: $xl;
+  margin: 0 30px;
+
+  border-radius: 0 0 7px 7px;
+  background-color: rgba($color-dark, 0.5);
+}
+
+.active {
+  border-radius: 4px;
+  background-color: rgba($color-dark, 0.4);
+  .header-menu__link {
+    color: $color-accent;
+  }
+}

@@ -1,0 +1,256 @@
+// @use "../presets" as *;
+
+$diff: 0.2px;
+
+/* ul */
+@mixin max-ul {
+  @media (min-width: $ul) {
+    @content;
+  }
+}
+
+@mixin ul-min {
+  @media (max-width: ($ul - $diff)) {
+    @content;
+  }
+}
+
+@mixin ul-xl {
+  @media (max-width: ($ul - $diff)) and (min-width: $xl) {
+    @content;
+  }
+}
+
+@mixin ul-lg {
+  @media (max-width: ($ul - $diff)) and (min-width: $lg) {
+    @content;
+  }
+}
+
+@mixin ul-md {
+  @media (max-width: ($ul - $diff)) and (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin ul-sm {
+  @media (max-width: ($ul - $diff)) and (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin ul-xs {
+  @media (max-width: ($ul - $diff)) and (min-width: $xs) {
+    @content;
+  }
+}
+
+@mixin ul-xx {
+  @media (max-width: ($ul - $diff)) and (min-width: $xx) {
+    @content;
+  }
+}
+
+@mixin ul-ux {
+  @media (max-width: ($ul - $diff)) and (min-width: $ux) {
+    @content;
+  }
+}
+
+/* xl */
+@mixin max-xl {
+  @media (min-width: $xl) {
+    @content;
+  }
+}
+
+@mixin xl-min {
+  @media (max-width: ($xl - $diff)) {
+    @content;
+  }
+}
+
+@mixin xl-lg {
+  @media (max-width: ($xl - $diff)) and (min-width: $lg) {
+    @content;
+  }
+}
+
+@mixin xl-md {
+  @media (max-width: ($xl - $diff)) and (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin xl-sm {
+  @media (max-width: ($xl - $diff)) and (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin xl-xs {
+  @media (max-width: ($xl - $diff)) and (min-width: $xs) {
+    @content;
+  }
+}
+
+@mixin xl-xx {
+  @media (max-width: ($xl - $diff)) and (min-width: $xx) {
+    @content;
+  }
+}
+
+@mixin xl-ux {
+  @media (max-width: ($xl - $diff)) and (min-width: $ux) {
+    @content;
+  }
+}
+
+/* lg */
+@mixin max-lg {
+  @media (min-width: $lg) {
+    @content;
+  }
+}
+
+@mixin lg-min {
+  @media (max-width: ($lg - $diff)) {
+    @content;
+  }
+}
+
+@mixin lg-md {
+  @media (max-width: ($lg - $diff)) and (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin lg-sm {
+  @media (max-width: ($lg - $diff)) and (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin lg-xs {
+  @media (max-width: ($lg - $diff)) and (min-width: $xs) {
+    @content;
+  }
+}
+
+@mixin lg-xx {
+  @media (max-width: ($lg - $diff)) and (min-width: $xx) {
+    @content;
+  }
+}
+
+@mixin lg-ux {
+  @media (max-width: ($lg - $diff)) and (min-width: $ux) {
+    @content;
+  }
+}
+
+/* md */
+@mixin max-md {
+  @media (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin md-min {
+  @media (max-width: ($md - $diff)) {
+    @content;
+  }
+}
+
+@mixin md-sm {
+  @media (max-width: ($md - $diff)) and (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin md-xs {
+  @media (max-width: ($md - $diff)) and (min-width: $xs) {
+    @content;
+  }
+}
+
+@mixin md-xx {
+  @media (max-width: ($md - $diff)) and (min-width: $xx) {
+    @content;
+  }
+}
+
+@mixin md-ux {
+  @media (max-width: ($md - $diff)) and (min-width: $ux) {
+    @content;
+  }
+}
+
+/* sm */
+@mixin max-sm {
+  @media (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin sm-min {
+  @media (max-width: ($sm - $diff)) {
+    @content;
+  }
+}
+
+@mixin sm-xs {
+  @media (max-width: ($sm - $diff)) and (min-width: $xs) {
+    @content;
+  }
+}
+
+@mixin sm-xx {
+  @media (max-width: ($sm - $diff)) and (min-width: $xx) {
+    @content;
+  }
+}
+
+@mixin sm-ux {
+  @media (max-width: ($sm - $diff)) and (min-width: $ux) {
+    @content;
+  }
+}
+
+/* xs */
+@mixin max-xs {
+  @media (min-width: $xs) {
+    @content;
+  }
+}
+
+@mixin xs-min {
+  @media (max-width: ($xs - $diff)) {
+    @content;
+  }
+}
+
+@mixin xs-xx {
+  @media (max-width: ($xs - $diff)) and (min-width: $xx) {
+    @content;
+  }
+}
+
+@mixin xs-ux {
+  @media (max-width: ($xs - $diff)) and (min-width: $ux) {
+    @content;
+  }
+}
+
+/* xx */
+@mixin max-xx {
+  @media (min-width: $xx) {
+    @content;
+  }
+}
+
+@mixin xx-min {
+  @media (max-width: ($xx - $diff)) {
+    @content;
+  }
+}
