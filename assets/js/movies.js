@@ -28,7 +28,7 @@ const inputSearchHandler = (event) => {
     const searchString = event.target.value.trim();
     if (searchString && searchString.length > 3 && searchString !== searchLast)
       if (!triggerMode) clearMoviesMarkup(moviesList);
-    getData(`${apiUrl}/?i=tt3896198&apikey=b27c515d=${searchString}`)
+    getData(`${apiUrl}/?i=tt3896198&apikey=847d16a6&s=${searchString}`)
       .then((movies) => movies.forEach((movie) => addMovieToList(movie)))
       .catch((err) => console.log(err));
     searchLast = searchString;
